@@ -5,7 +5,7 @@
 
 void bubble_sort(linked_list* ll)
 {
-	for(int i=0; i < len(ll); i++)
+	for(int i = 0; i < len(ll) - 1; i++)
 	{
 		linked_list* cur_el = ll->next;
 		linked_list* prev = ll;
